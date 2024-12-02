@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Προϊόντα</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Crypto Mining Co.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Αρχική</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Σχετικά</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Προϊόντα</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Επικοινωνία</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center py-5">
+    <h1>Προϊόντα</h1>
+    <p>Δείτε τις συσκευές και λύσεις μας για Bitcoin Mining</p>
+  </header>
+
+  <!-- Κατηγοριοποίηση -->
+  <div class="container my-4">
+    <div class="d-flex justify-content-center mb-4">
+      <button class="btn btn-outline-primary mx-2 filter-btn" data-category="all">Όλα</button>
+      <button class="btn btn-outline-primary mx-2 filter-btn" data-category="asic">ASIC Miners</button>
+      <button class="btn btn-outline-primary mx-2 filter-btn" data-category="gpu">GPU Rigs</button>
+      <button class="btn btn-outline-primary mx-2 filter-btn" data-category="cooling">Λύσεις Ψύξης</button>
+    </div>
+
+    <!-- Προϊόντα -->
+    <div class="row" id="product-list">
+      <!-- Προϊόντα ASIC Miners -->
+      <div class="col-md-4 product-item" data-category="asic">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="ASIC Miner X">
+          <div class="card-body">
+            <h5 class="card-title">ASIC Miner X</h5>
+            <p class="card-text">Ισχυρός miner για μέγιστη απόδοση.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 product-item" data-category="asic">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="ASIC Miner Z">
+          <div class="card-body">
+            <h5 class="card-title">ASIC Miner Z</h5>
+            <p class="card-text">Υψηλή αποδοτικότητα και αντοχή.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Προϊόντα GPU Rigs -->
+      <div class="col-md-4 product-item" data-category="gpu">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="GPU Rig Pro">
+          <div class="card-body">
+            <h5 class="card-title">GPU Rig Pro</h5>
+            <p class="card-text">Ευέλικτο και αποδοτικό rig.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 product-item" data-category="gpu">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="GPU Rig Max">
+          <div class="card-body">
+            <h5 class="card-title">GPU Rig Max</h5>
+            <p class="card-text">Μεγάλη απόδοση για επαγγελματίες.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Προϊόντα Λύσεις Ψύξης -->
+      <div class="col-md-4 product-item" data-category="cooling">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Cooling Fan 2000">
+          <div class="card-body">
+            <h5 class="card-title">Cooling Fan 2000</h5>
+            <p class="card-text">Αποτελεσματική ψύξη για μακροχρόνια χρήση.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 product-item" data-category="cooling">
+        <div class="card">
+          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Liquid Cooling Pro">
+          <div class="card-body">
+            <h5 class="card-title">Liquid Cooling Pro</h5>
+            <p class="card-text">Υγρό ψυκτικό για απόλυτη αθόρυβη λειτουργία.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Crypto Mining Co. Όλα τα δικαιώματα κατοχυρωμένα.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
